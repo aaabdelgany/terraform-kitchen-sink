@@ -8,7 +8,7 @@ variable "aws_region" {
 variable "instance_count" {
   description = "Number of instances to provision."
   type        = number
-  default     = 3
+  default     = 2
 }
 
 variable "ec2_instance_type" {
